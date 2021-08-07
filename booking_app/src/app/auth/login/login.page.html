@@ -1,0 +1,42 @@
+<ion-content>
+  <ion-row>
+    <ion-col size="12"  class="ion-text-center">
+      <img src="../../../assets/img/logo.png" alt="">
+    </ion-col>
+  </ion-row>
+  <form class="fromlogin">
+    <ion-item lines="full">
+      <ion-label position="floating" >ເບີໂທລະສັບ ຫຼື ອີເມວ</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">ລະຫັດຜ່ານ</ion-label>
+      <ion-input type="password"  required></ion-input>
+    </ion-item>
+    <ion-row class="ion-padding">
+      <ion-col>
+        <ion-button type="submit" color="primary" expand="block" (click)="login()"> ເຂົ້າສູ່ລະບົບ</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+
+  <ion-row class="ion-padding">
+    <ion-col size="12" class="ion-text-center">
+      <ion-text>
+        ຫລືທ່ານຍັງບໍ່ມີບັຊີໃຊ້ ? <span style="color: darkblue;" (click)="register()">ສະມັກສະມາຊິກ</span>
+      </ion-text>
+    </ion-col>
+    <ion-col size="12">
+      <ion-button type="submit" color="primary" expand="block"> Google <ion-icon name="logo-google"></ion-icon></ion-button>
+    </ion-col>
+    <ion-col size="12" class="ion-text-center">
+      <ion-text>
+        ຫລື
+      </ion-text>
+    </ion-col>
+    <ion-col size="12">
+      <ion-button type="submit" color="primary" expand="block"> Facebook <ion-icon name="logo-facebook"></ion-icon></ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>

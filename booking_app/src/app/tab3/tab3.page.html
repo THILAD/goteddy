@@ -1,0 +1,77 @@
+<ion-content [fullscreen]="true">
+  <ion-row>
+    <ion-col size="12"  class="ion-text-center">
+      <img src="../../assets/img/user.png" alt="">
+      <h4> ທ້າວ ໄຊມັງກອນ ແດງດວງຈັນ </h4>
+    </ion-col>
+  </ion-row>
+  <!-- List of Input Items -->
+  <!-- <ion-grid fixed class="ion-padding">
+    <ion-row>
+      <ion-col size="12" class="ion-padding">
+        <ion-button expand="block">
+          ເຂົ້າສູ່ລະບົບ
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid> ທ້າວ-->
+
+  <ion-list class="item2">
+
+    <ion-item lines="none">
+      <ion-label>ຂໍ້ຄວາມ</ion-label>
+      <ion-icon slot="start" name="chatbox"></ion-icon>
+      <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-label>ລາຍການທີ່ກົດຖືກໃຈ</ion-label>
+      <ion-icon slot="start" name="heart-circle"></ion-icon>
+      <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label>ເຊີນຊວນໝູ່</ion-label>
+      <ion-icon slot="start" name="person-add"></ion-icon>
+      <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+    </ion-item>
+
+
+  </ion-list>
+  <ion-list class="item2" style="margin-top:20px;">
+
+    <ion-item lines="none">
+      <ion-label>ຄວາມຊ່ວຍເຫຼືອ</ion-label>
+      <ion-icon color="dark" slot="start"name="call"></ion-icon>
+      <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-label>ຄວາມຄິດເຫັນ</ion-label>
+      <ion-icon  slot="start"name="chatbox-ellipses"></ion-icon>
+      <ion-icon slot="end" name="chevron-forward"></ion-icon>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label>ໄຫ້ຄະເເນນແອັບນີ້   </ion-label>
+      <ion-icon slot="start"name="star"></ion-icon>
+      <ion-icon slot="end" name="chevron-forward"></ion-icon>
+    </ion-item>
+ 
+
+  </ion-list>
+
+  <ion-list class="item2" style="margin-top:30px;">
+
+    <ion-item lines="none">
+      <ion-label>ການຕັ້ງຄ່າ</ion-label>
+      <ion-icon slot="start" name="settings-outline"></ion-icon>
+      <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+    </ion-item>
+    </ion-list>
+    <ion-footer class="ion-padding">
+  <ion-toolbar>
+  <ion-button (click)="logout()" expand="block"  color="danger">
+    ອອກຈາກລະບົບ
+  </ion-button>
+  </ion-toolbar>
+</ion-footer>
+</ion-content>

@@ -1,0 +1,106 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>ດອນຈັນພາເລດ</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref=""></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-slides #slider loop="true" pager="true" [options]="slideOpts" >
+    <ion-slide>
+      <img src="../../assets/img/m1.jpg" height="200px" />
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/m2.jpg" height="200px" />
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/img/m3.jpg" height="200px" />
+    </ion-slide>
+  </ion-slides>
+
+
+  <div class="wrappper">
+    <div class="hotel_name">
+      <h4>ໂຮງແຮມ ດອນຈັນພາເລດ</h4>
+
+    </div>
+    <div class="rate">
+      <p>4.0</p>
+    </div>
+
+  </div>
+
+  <div class="wrapper1">
+
+    <ion-text color="dark">
+      <p>ແຮງງານລາວ ຜູ້ທີ່ຫາກະເດີນທາງກັບມາ ລົບກວນອ່ານ
+        ຄຳສັ່ງແນະນຳ ວ່າແຮງງານລາວ ຜູ້ທີ່ຫາກະເດີນທາງກັບມາ ລົບກວນອ່ານ
+        ຄຳສັ່ງແນະນຳ ວ່າແຮງງານລາວ ຜູ້ທີ່ຫາກະເດີນທາງກັບມາ ລົບກວນອ່ານ
+        ຄຳສັ່ງແນະນຳ ວ່າ</p>
+    </ion-text>
+  </div>
+
+  <div class="wrapper3">
+    <div class="contents">
+      <div class="box">
+        <p>ຄວາມນິຍົມ</p>
+        <p style="color:#ffd534">4.0</p>
+
+      </div>
+      <div class="box">
+        <!-- <p>ຄະແນນລີວິວ</p> -->
+        <div class="rate">
+          <!-- <p>4.0</p> -->
+          <ion-icon color="warning" name="star"></ion-icon>
+          <ion-icon color="warning" name="star"></ion-icon>
+          <ion-icon color="warning" name="star"></ion-icon>
+          <ion-icon color="warning" name="star"></ion-icon>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="wrapper4">
+    <div class="content4">
+      <div class="item">
+        <ion-icon slot="start" color="success" name="checkmark-circle-outline"></ion-icon>
+        <ion-label>ຟຣີ ອີນເຕີເນັດ ແບບໄຮ້ສາຍ</ion-label>
+      </div>
+      <div class="item">
+        <ion-icon slot="start" color="success" name="checkmark-circle-outline"></ion-icon>
+        <ion-label>ຟຣີ ສະມາສທີວີ ພ້ອມເນັດຟລຶກ</ion-label>
+      </div>
+      <div class="item">
+        <ion-icon slot="start" color="success" name="checkmark-circle-outline"></ion-icon>
+        <ion-label>ຟຣີ ອາຫານເສົ້າ ແລະກາເຟ</ion-label>
+      </div>
+      <div class="item">
+        <ion-icon slot="   " color="success" name="checkmark-circle-outline"></ion-icon>
+        <ion-label>ໂຮງແຮມ ປອດຂວັນຢາສູບ</ion-label>
+      </div>
+    </div>
+  </div>
+
+
+
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-row>
+      <ion-col size="6" class="footerleft">
+        <ion-text color="secondary">
+          120,000ກີບ/ຄືນ
+        </ion-text>
+
+      </ion-col>
+      <ion-col size="6">
+        <ion-button (click)="booknow()" expand="full">
+          ຈອງຫ້ອງດຽວນີ້
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>

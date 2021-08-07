@@ -1,0 +1,158 @@
+ion-header {
+    ion-toolbar {
+        ion-icon {
+            font-size: 30px;
+        }
+    }
+}
+
+.slide {
+    width: 100%;
+    height: 160px;
+}
+
+ion-content {
+    --ion-background-color: #F9F9F9;
+
+}
+
+.wrappper {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    .hotel_name {
+        display: flex-row;
+        justify-content: flex-start;
+        padding: 10px;
+
+        h4 {
+            color: rgb(48, 48, 48);
+        }
+
+        ion-icon {
+            font-size: 20px;
+            color: #ffca22;
+        }
+    }
+
+    .rate {
+        padding: 10px;
+
+        p {
+            background-color: rgb(36, 34, 112);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+}
+
+
+.wrapper1 {
+    background-color: white;
+    padding: 10px;
+
+    ion-text {
+        font-size: 12px;
+    }
+}
+
+
+.wrapper3 {
+
+    .contents {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .box {
+            .rate {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+
+.wrapper_content {
+    display: flex;
+    justify-content: center;
+
+    .containne {
+        background-color: white;
+        border-radius: 4px;
+        width: 90%;
+
+        .header {
+            margin-top: 20px;
+
+            ion-button {
+                display: flex;
+                justify-content: flex-start;
+                text-align: start;
+            }
+        }
+
+        .contents {
+            display: flex;
+
+
+        }
+    }
+}
+
+.rate {
+    .box {
+        ion-icon {
+            color: #ffd534;
+        }
+    }
+}
+
+
+.wrapper4 {
+    display: flex;
+    justify-content: center;
+
+    .content4 {
+        background-color: white;
+        border-radius: 4px;
+        width: 90%;
+
+        .item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px;
+
+            ion-icon {
+                font-size: 20px;
+            }
+
+            ion-label {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+ion-footer {
+    ion-toolbar {
+        ion-row {
+            .footerleft {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            ion-col {
+                ion-text {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

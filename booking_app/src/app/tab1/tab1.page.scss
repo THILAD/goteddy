@@ -1,0 +1,39 @@
+ion-content {
+    --ion-background-color: #3672e0;
+}
+ion-card {
+    --ion-background-color: #ffff;
+    width                 : 120px;
+    height                : 100px;
+    position              : relative;
+    top                   : 40px;
+     margin-top: 20px;
+}
+
+.myright {
+    --ion-background-color: #283142;
+
+}
+
+.wrappper_content {
+    ion-icon {
+        font-size  : 40px;
+        text-align : center;
+        margin-left: 20px;
+    }
+
+    h4 {
+        font-family: natolao;
+        font-size  : 40px;
+        text-align : center;
+        font-weight: 900;
+    }
+
+}
+
+  h4 {
+        font-family: natolao;
+        font-size  : 40px;
+        text-align : center;
+        font-weight: 900;
+    }
